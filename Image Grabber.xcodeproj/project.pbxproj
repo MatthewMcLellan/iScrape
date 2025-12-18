@@ -211,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 519CF53F2EF3BBEA009C2829 /* Build configuration list for PBXProject "iScrape" */;
+			buildConfigurationList = 519CF53F2EF3BBEA009C2829 /* Build configuration list for PBXProject "Image Grabber" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -425,7 +425,7 @@
 				DEVELOPMENT_TEAM = ZH33H73W67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = iScrape;
+				INFOPLIST_KEY_CFBundleDisplayName = "Image Grabber";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We add the downloaded photos into the local library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -463,7 +463,7 @@
 				DEVELOPMENT_TEAM = ZH33H73W67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = iScrape;
+				INFOPLIST_KEY_CFBundleDisplayName = "Image Grabber";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We add the downloaded photos into the local library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -578,7 +578,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		519CF53F2EF3BBEA009C2829 /* Build configuration list for PBXProject "iScrape" */ = {
+		519CF53F2EF3BBEA009C2829 /* Build configuration list for PBXProject "Image Grabber" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				519CF5682EF3BBEC009C2829 /* Debug */,
