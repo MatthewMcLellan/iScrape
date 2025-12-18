@@ -211,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 519CF53F2EF3BBEA009C2829 /* Build configuration list for PBXProject "Image Grabber" */;
+			buildConfigurationList = 519CF53F2EF3BBEA009C2829 /* Build configuration list for PBXProject "AM-Scraper" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -438,7 +438,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AMS.matthewmclellan.iScrape;
+				PRODUCT_BUNDLE_IDENTIFIER = AMS.matthewmclellan.AMScrape;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -476,7 +476,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AMS.matthewmclellan.iScrape;
+				PRODUCT_BUNDLE_IDENTIFIER = AMS.matthewmclellan.AMScrape;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -578,7 +578,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		519CF53F2EF3BBEA009C2829 /* Build configuration list for PBXProject "Image Grabber" */ = {
+		519CF53F2EF3BBEA009C2829 /* Build configuration list for PBXProject "AM-Scraper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				519CF5682EF3BBEC009C2829 /* Debug */,
