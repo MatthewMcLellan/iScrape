@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "519CF5432EF3BBEA009C2829"
-               BuildableName = "iScrape.app"
-               BlueprintName = "iScrape"
-               ReferencedContainer = "container:AM-Scraper.xcodeproj">
+               BuildableName = "AM_Hirer.app"
+               BlueprintName = "AM_Hirer"
+               ReferencedContainer = "container:AM_Hirer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "519CF5432EF3BBEA009C2829"
-            BuildableName = "iScrape.app"
-            BlueprintName = "iScrape"
-            ReferencedContainer = "container:AM-Scraper.xcodeproj">
+            BuildableName = "AM_Hirer.app"
+            BlueprintName = "AM_Hirer"
+            ReferencedContainer = "container:AM_Hirer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "519CF5432EF3BBEA009C2829"
-            BuildableName = "iScrape.app"
-            BlueprintName = "iScrape"
-            ReferencedContainer = "container:AM-Scraper.xcodeproj">
+            BuildableName = "AM_Hirer.app"
+            BlueprintName = "AM_Hirer"
+            ReferencedContainer = "container:AM_Hirer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

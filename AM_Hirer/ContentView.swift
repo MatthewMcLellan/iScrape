@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  iScrape
+//  AM_Hirer
 //
 //  Created by Matthew McLellan on 12/17/25.
 //
@@ -76,7 +76,7 @@ struct ContentView: View {
                     .padding(.bottom, 20)
                 }
             }
-            .navigationTitle("iScrape")
+            .navigationTitle("AM_Hirer")
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button {

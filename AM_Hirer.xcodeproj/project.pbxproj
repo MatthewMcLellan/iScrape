@@ -24,50 +24,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		519CF5442EF3BBEA009C2829 /* iScrape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iScrape.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		519CF5562EF3BBEC009C2829 /* iScrapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iScrapeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		519CF5602EF3BBEC009C2829 /* iScrapeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iScrapeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		519CF5442EF3BBEA009C2829 /* AM_Hirer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AM_Hirer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		519CF5562EF3BBEC009C2829 /* AM_HirerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AM_HirerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		519CF5602EF3BBEC009C2829 /* AM_HirerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AM_HirerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		519CF5772EF3BC43009C2829 /* Exceptions for "iScrape" folder in "iScrapeTests" target */ = {
+		519CF5772EF3BC43009C2829 /* Exceptions for "AM_Hirer" folder in "AM_HirerTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				ImageDetailView.swift,
 				ImageModel.swift,
 				ImageScraperViewModel.swift,
 			);
-			target = 519CF5552EF3BBEC009C2829 /* iScrapeTests */;
+			target = 519CF5552EF3BBEC009C2829 /* AM_HirerTests */;
 		};
-		519CF5782EF3BC43009C2829 /* Exceptions for "iScrape" folder in "iScrapeUITests" target */ = {
+		519CF5782EF3BC43009C2829 /* Exceptions for "AM_Hirer" folder in "AM_HirerUITests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				ImageDetailView.swift,
 				ImageModel.swift,
 				ImageScraperViewModel.swift,
 			);
-			target = 519CF55F2EF3BBEC009C2829 /* iScrapeUITests */;
+			target = 519CF55F2EF3BBEC009C2829 /* AM_HirerUITests */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		519CF5462EF3BBEA009C2829 /* iScrape */ = {
+		519CF5462EF3BBEA009C2829 /* AM_Hirer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				519CF5772EF3BC43009C2829 /* Exceptions for "iScrape" folder in "iScrapeTests" target */,
-				519CF5782EF3BC43009C2829 /* Exceptions for "iScrape" folder in "iScrapeUITests" target */,
+				519CF5772EF3BC43009C2829 /* Exceptions for "AM_Hirer" folder in "AM_HirerTests" target */,
+				519CF5782EF3BC43009C2829 /* Exceptions for "AM_Hirer" folder in "AM_HirerUITests" target */,
 			);
-			path = iScrape;
+			path = AM_Hirer;
 			sourceTree = "<group>";
 		};
-		519CF5592EF3BBEC009C2829 /* iScrapeTests */ = {
+		519CF5592EF3BBEC009C2829 /* AM_HirerTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = iScrapeTests;
+			path = AM_HirerTests;
 			sourceTree = "<group>";
 		};
-		519CF5632EF3BBEC009C2829 /* iScrapeUITests */ = {
+		519CF5632EF3BBEC009C2829 /* AM_HirerUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = iScrapeUITests;
+			path = AM_HirerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -100,9 +100,9 @@
 		519CF53B2EF3BBEA009C2829 = {
 			isa = PBXGroup;
 			children = (
-				519CF5462EF3BBEA009C2829 /* iScrape */,
-				519CF5592EF3BBEC009C2829 /* iScrapeTests */,
-				519CF5632EF3BBEC009C2829 /* iScrapeUITests */,
+				519CF5462EF3BBEA009C2829 /* AM_Hirer */,
+				519CF5592EF3BBEC009C2829 /* AM_HirerTests */,
+				519CF5632EF3BBEC009C2829 /* AM_HirerUITests */,
 				519CF5452EF3BBEA009C2829 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,9 +110,9 @@
 		519CF5452EF3BBEA009C2829 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				519CF5442EF3BBEA009C2829 /* iScrape.app */,
-				519CF5562EF3BBEC009C2829 /* iScrapeTests.xctest */,
-				519CF5602EF3BBEC009C2829 /* iScrapeUITests.xctest */,
+				519CF5442EF3BBEA009C2829 /* AM_Hirer.app */,
+				519CF5562EF3BBEC009C2829 /* AM_HirerTests.xctest */,
+				519CF5602EF3BBEC009C2829 /* AM_HirerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,9 +120,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		519CF5432EF3BBEA009C2829 /* iScrape */ = {
+		519CF5432EF3BBEA009C2829 /* AM_Hirer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 519CF56A2EF3BBEC009C2829 /* Build configuration list for PBXNativeTarget "iScrape" */;
+			buildConfigurationList = 519CF56A2EF3BBEC009C2829 /* Build configuration list for PBXNativeTarget "AM_Hirer" */;
 			buildPhases = (
 				519CF5402EF3BBEA009C2829 /* Sources */,
 				519CF5412EF3BBEA009C2829 /* Frameworks */,
@@ -133,18 +133,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				519CF5462EF3BBEA009C2829 /* iScrape */,
+				519CF5462EF3BBEA009C2829 /* AM_Hirer */,
 			);
-			name = iScrape;
+			name = AM_Hirer;
 			packageProductDependencies = (
 			);
 			productName = iScrape;
-			productReference = 519CF5442EF3BBEA009C2829 /* iScrape.app */;
+			productReference = 519CF5442EF3BBEA009C2829 /* AM_Hirer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		519CF5552EF3BBEC009C2829 /* iScrapeTests */ = {
+		519CF5552EF3BBEC009C2829 /* AM_HirerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 519CF56D2EF3BBEC009C2829 /* Build configuration list for PBXNativeTarget "iScrapeTests" */;
+			buildConfigurationList = 519CF56D2EF3BBEC009C2829 /* Build configuration list for PBXNativeTarget "AM_HirerTests" */;
 			buildPhases = (
 				519CF5522EF3BBEC009C2829 /* Sources */,
 				519CF5532EF3BBEC009C2829 /* Frameworks */,
@@ -156,18 +156,18 @@
 				519CF5582EF3BBEC009C2829 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				519CF5592EF3BBEC009C2829 /* iScrapeTests */,
+				519CF5592EF3BBEC009C2829 /* AM_HirerTests */,
 			);
-			name = iScrapeTests;
+			name = AM_HirerTests;
 			packageProductDependencies = (
 			);
 			productName = iScrapeTests;
-			productReference = 519CF5562EF3BBEC009C2829 /* iScrapeTests.xctest */;
+			productReference = 519CF5562EF3BBEC009C2829 /* AM_HirerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		519CF55F2EF3BBEC009C2829 /* iScrapeUITests */ = {
+		519CF55F2EF3BBEC009C2829 /* AM_HirerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 519CF5702EF3BBEC009C2829 /* Build configuration list for PBXNativeTarget "iScrapeUITests" */;
+			buildConfigurationList = 519CF5702EF3BBEC009C2829 /* Build configuration list for PBXNativeTarget "AM_HirerUITests" */;
 			buildPhases = (
 				519CF55C2EF3BBEC009C2829 /* Sources */,
 				519CF55D2EF3BBEC009C2829 /* Frameworks */,
@@ -179,13 +179,13 @@
 				519CF5622EF3BBEC009C2829 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				519CF5632EF3BBEC009C2829 /* iScrapeUITests */,
+				519CF5632EF3BBEC009C2829 /* AM_HirerUITests */,
 			);
-			name = iScrapeUITests;
+			name = AM_HirerUITests;
 			packageProductDependencies = (
 			);
 			productName = iScrapeUITests;
-			productReference = 519CF5602EF3BBEC009C2829 /* iScrapeUITests.xctest */;
+			productReference = 519CF5602EF3BBEC009C2829 /* AM_HirerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 519CF53F2EF3BBEA009C2829 /* Build configuration list for PBXProject "AM-Scraper" */;
+			buildConfigurationList = 519CF53F2EF3BBEA009C2829 /* Build configuration list for PBXProject "AM_Hirer" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -225,9 +225,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				519CF5432EF3BBEA009C2829 /* iScrape */,
-				519CF5552EF3BBEC009C2829 /* iScrapeTests */,
-				519CF55F2EF3BBEC009C2829 /* iScrapeUITests */,
+				519CF5432EF3BBEA009C2829 /* AM_Hirer */,
+				519CF5552EF3BBEC009C2829 /* AM_HirerTests */,
+				519CF55F2EF3BBEC009C2829 /* AM_HirerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -283,12 +283,12 @@
 /* Begin PBXTargetDependency section */
 		519CF5582EF3BBEC009C2829 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 519CF5432EF3BBEA009C2829 /* iScrape */;
+			target = 519CF5432EF3BBEA009C2829 /* AM_Hirer */;
 			targetProxy = 519CF5572EF3BBEC009C2829 /* PBXContainerItemProxy */;
 		};
 		519CF5622EF3BBEC009C2829 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 519CF5432EF3BBEA009C2829 /* iScrape */;
+			target = 519CF5432EF3BBEA009C2829 /* AM_Hirer */;
 			targetProxy = 519CF5612EF3BBEC009C2829 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -425,7 +425,8 @@
 				DEVELOPMENT_TEAM = ZH33H73W67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "AM-Scraper";
+				INFOPLIST_KEY_CFBundleDisplayName = AM_Hirer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We add the downloaded photos into the local library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -438,7 +439,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AMS.matthewmclellan.AMScrape;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMS.matthewmclellan.AM-Hirer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -463,7 +464,8 @@
 				DEVELOPMENT_TEAM = ZH33H73W67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "AM-Scraper";
+				INFOPLIST_KEY_CFBundleDisplayName = AM_Hirer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We add the downloaded photos into the local library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -476,7 +478,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AMS.matthewmclellan.AMScrape;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMS.matthewmclellan.AM-Hirer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -578,7 +580,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		519CF53F2EF3BBEA009C2829 /* Build configuration list for PBXProject "AM-Scraper" */ = {
+		519CF53F2EF3BBEA009C2829 /* Build configuration list for PBXProject "AM_Hirer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				519CF5682EF3BBEC009C2829 /* Debug */,
@@ -587,7 +589,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		519CF56A2EF3BBEC009C2829 /* Build configuration list for PBXNativeTarget "iScrape" */ = {
+		519CF56A2EF3BBEC009C2829 /* Build configuration list for PBXNativeTarget "AM_Hirer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				519CF56B2EF3BBEC009C2829 /* Debug */,
@@ -596,7 +598,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		519CF56D2EF3BBEC009C2829 /* Build configuration list for PBXNativeTarget "iScrapeTests" */ = {
+		519CF56D2EF3BBEC009C2829 /* Build configuration list for PBXNativeTarget "AM_HirerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				519CF56E2EF3BBEC009C2829 /* Debug */,
@@ -605,7 +607,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		519CF5702EF3BBEC009C2829 /* Build configuration list for PBXNativeTarget "iScrapeUITests" */ = {
+		519CF5702EF3BBEC009C2829 /* Build configuration list for PBXNativeTarget "AM_HirerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				519CF5712EF3BBEC009C2829 /* Debug */,

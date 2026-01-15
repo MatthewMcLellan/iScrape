@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct iScrapeApp: App {
+struct AM_HirerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "519CF5432EF3BBEA009C2829"
-               BuildableName = "iScrape.app"
-               BlueprintName = "iScrape"
-               ReferencedContainer = "container:AM-Scraper.xcodeproj">
+               BuildableName = "AM_Hirer.app"
+               BlueprintName = "AM_Hirer"
+               ReferencedContainer = "container:AM_Hirer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,9 +36,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "519CF5552EF3BBEC009C2829"
-               BuildableName = "iScrapeTests.xctest"
-               BlueprintName = "iScrapeTests"
-               ReferencedContainer = "container:AM-Scraper.xcodeproj">
+               BuildableName = "AM_HirerTests.xctest"
+               BlueprintName = "AM_HirerTests"
+               ReferencedContainer = "container:AM_Hirer.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "519CF55F2EF3BBEC009C2829"
-               BuildableName = "iScrapeUITests.xctest"
-               BlueprintName = "iScrapeUITests"
-               ReferencedContainer = "container:AM-Scraper.xcodeproj">
+               BuildableName = "AM_HirerUITests.xctest"
+               BlueprintName = "AM_HirerUITests"
+               ReferencedContainer = "container:AM_Hirer.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -69,9 +69,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "519CF5432EF3BBEA009C2829"
-            BuildableName = "iScrape.app"
-            BlueprintName = "iScrape"
-            ReferencedContainer = "container:AM-Scraper.xcodeproj">
+            BuildableName = "AM_Hirer.app"
+            BlueprintName = "AM_Hirer"
+            ReferencedContainer = "container:AM_Hirer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -86,9 +86,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "519CF5432EF3BBEA009C2829"
-            BuildableName = "iScrape.app"
-            BlueprintName = "iScrape"
-            ReferencedContainer = "container:AM-Scraper.xcodeproj">
+            BuildableName = "AM_Hirer.app"
+            BlueprintName = "AM_Hirer"
+            ReferencedContainer = "container:AM_Hirer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
