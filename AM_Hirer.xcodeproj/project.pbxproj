@@ -6,6 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		517A6F452F191CF400194821 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517A6F442F191CF400194821 /* MapKit.framework */; };
+		517A6F482F191CFF00194821 /* CoreLocationUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517A6F462F191CFF00194821 /* CoreLocationUI.framework */; };
+		517A6F492F191CFF00194821 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517A6F472F191CFF00194821 /* CoreLocation.framework */; };
+		517A6F822F19536600194821 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 517A6F812F19536600194821 /* AlamofireDynamic */; };
+		517A6F842F1953E400194821 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 517A6F832F1953E400194821 /* Alamofire */; };
+		517F7A472F191722001354E0 /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 517F7A462F191722001354E0 /* SwiftKeychainWrapper */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		519CF5572EF3BBEC009C2829 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,39 +33,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		517A6F442F191CF400194821 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		517A6F462F191CFF00194821 /* CoreLocationUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocationUI.framework; path = System/Library/Frameworks/CoreLocationUI.framework; sourceTree = SDKROOT; };
+		517A6F472F191CFF00194821 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		519CF5442EF3BBEA009C2829 /* AM_Hirer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AM_Hirer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		519CF5562EF3BBEC009C2829 /* AM_HirerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AM_HirerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		519CF5602EF3BBEC009C2829 /* AM_HirerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AM_HirerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		519CF5772EF3BC43009C2829 /* Exceptions for "AM_Hirer" folder in "AM_HirerTests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				ImageDetailView.swift,
-				ImageModel.swift,
-				ImageScraperViewModel.swift,
-			);
-			target = 519CF5552EF3BBEC009C2829 /* AM_HirerTests */;
-		};
-		519CF5782EF3BC43009C2829 /* Exceptions for "AM_Hirer" folder in "AM_HirerUITests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				ImageDetailView.swift,
-				ImageModel.swift,
-				ImageScraperViewModel.swift,
-			);
-			target = 519CF55F2EF3BBEC009C2829 /* AM_HirerUITests */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		519CF5462EF3BBEA009C2829 /* AM_Hirer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				519CF5772EF3BC43009C2829 /* Exceptions for "AM_Hirer" folder in "AM_HirerTests" target */,
-				519CF5782EF3BC43009C2829 /* Exceptions for "AM_Hirer" folder in "AM_HirerUITests" target */,
-			);
 			path = AM_Hirer;
 			sourceTree = "<group>";
 		};
@@ -77,6 +64,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				517A6F492F191CFF00194821 /* CoreLocation.framework in Frameworks */,
+				517A6F452F191CF400194821 /* MapKit.framework in Frameworks */,
+				517A6F822F19536600194821 /* AlamofireDynamic in Frameworks */,
+				517A6F842F1953E400194821 /* Alamofire in Frameworks */,
+				517A6F482F191CFF00194821 /* CoreLocationUI.framework in Frameworks */,
+				517F7A472F191722001354E0 /* SwiftKeychainWrapper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,12 +90,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		517A6F432F191CF400194821 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				517A6F472F191CFF00194821 /* CoreLocation.framework */,
+				517A6F462F191CFF00194821 /* CoreLocationUI.framework */,
+				517A6F442F191CF400194821 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		519CF53B2EF3BBEA009C2829 = {
 			isa = PBXGroup;
 			children = (
 				519CF5462EF3BBEA009C2829 /* AM_Hirer */,
 				519CF5592EF3BBEC009C2829 /* AM_HirerTests */,
 				519CF5632EF3BBEC009C2829 /* AM_HirerUITests */,
+				517A6F432F191CF400194821 /* Frameworks */,
 				519CF5452EF3BBEA009C2829 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -137,6 +141,9 @@
 			);
 			name = AM_Hirer;
 			packageProductDependencies = (
+				517F7A462F191722001354E0 /* SwiftKeychainWrapper */,
+				517A6F812F19536600194821 /* AlamofireDynamic */,
+				517A6F832F1953E400194821 /* Alamofire */,
 			);
 			productName = iScrape;
 			productReference = 519CF5442EF3BBEA009C2829 /* AM_Hirer.app */;
@@ -220,6 +227,10 @@
 			);
 			mainGroup = 519CF53B2EF3BBEA009C2829;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				517F7A452F191722001354E0 /* XCLocalSwiftPackageReference "../../../../../Downloads/SwiftKeychainWrapper-develop" */,
+				517A6F802F19536600194821 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 519CF5452EF3BBEA009C2829 /* Products */;
 			projectDirPath = "";
@@ -425,14 +436,19 @@
 				DEVELOPMENT_TEAM = ZH33H73W67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AM-Hirer-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = AM_Hirer;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We provide navigation and real-time route adjustments during travel, or idle, without the need to keep the device on, preserving battery life and device health.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We provide navigation and real-time route adjustments during travel, or idle, without the need to keep the device on, preserving battery life and device health.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We add the downloaded photos into the local library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,14 +480,19 @@
 				DEVELOPMENT_TEAM = ZH33H73W67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AM-Hirer-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = AM_Hirer;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We provide navigation and real-time route adjustments during travel, or idle, without the need to keep the device on, preserving battery life and device health.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We provide navigation and real-time route adjustments during travel, or idle, without the need to keep the device on, preserving battery life and device health.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We add the downloaded photos into the local library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -617,6 +638,41 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		517F7A452F191722001354E0 /* XCLocalSwiftPackageReference "../../../../../Downloads/SwiftKeychainWrapper-develop" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../../../Downloads/SwiftKeychainWrapper-develop";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		517A6F802F19536600194821 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		517A6F812F19536600194821 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 517A6F802F19536600194821 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		517A6F832F1953E400194821 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 517A6F802F19536600194821 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		517F7A462F191722001354E0 /* SwiftKeychainWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftKeychainWrapper;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 519CF53C2EF3BBEA009C2829 /* Project object */;
 }

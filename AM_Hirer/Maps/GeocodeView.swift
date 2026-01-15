@@ -1,0 +1,75 @@
+//
+//  GeocodeView.swift
+//  AM_Hirer
+//
+//  Created by Matthew McLellan on 1/15/26.
+//
+
+import SwiftUI
+import MapKit
+import OSLog
+
+struct GeocodeView: View {
+    private let addressVisits = [
+        "4643 Mill Creek Pkwy \n Kansas City, MO  64111 \n United States",
+        "Jirón Madre de Dios S/N \n Lima \n Peru"
+    ]
+    
+    @State private var addressVisitMapItems: [MKMapItem] = []
+
+    var body: some View {
+        List {
+            Section() {
+                ForEach(addressVisitMapItems, id: \.self) { visitMapItem in
+                    VStack(alignment: .leading) {
+                        if #available(iOS 26.0, *) {
+                            Map(initialPosition: .camera(MapCamera(centerCoordinate: visitMapItem.location.coordinate, distance: 350))) {
+                                Marker(item: visitMapItem)
+                            }
+                            .frame(height: 180)
+                            .cornerRadius(20)
+                        } else {
+                            // Fallback on earlier versions
+                        }
+                        if #available(iOS 26.0, *) {
+                            Text(visitMapItem.addressRepresentations?.fullAddress(includingRegion: true, singleLine: false) ?? "address")
+                                .font(.caption)
+                        } else {
+                            // Fallback on earlier versions
+                        }
+                    }
+                }
+            }
+        }
+        .listStyle(.plain)
+        
+        .onAppear {
+            Task {
+                var addressMapItems = [MKMapItem]()
+                for address in addressVisits {
+                    if #available(iOS 26.0, *) {
+                        if let request = MKGeocodingRequest(addressString: address) {
+                            do {
+                                let mapitems = try await request.mapItems
+                                if let mapitem = mapitems.first {
+                                    addressMapItems.append(mapitem)
+                                }
+                            } catch let error {
+                                let logger = Logger()
+                                logger.error("Geocoding request failed with error: \(error)")
+                            }
+                        }
+                    } else {
+                        // Fallback on earlier versions
+                    }
+                }
+                addressVisitMapItems = addressMapItems
+            }
+
+        }
+    }
+}
+
+#Preview {
+    GeocodeView()
+}
