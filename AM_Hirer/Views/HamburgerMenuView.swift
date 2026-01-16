@@ -6,6 +6,7 @@ import OSLog
 
 struct HamburgerMenuView: View {
     @Environment(\.dismiss) var dismiss
+    @State private var showHireRDiscussion = false
     
     var body: some View {
         NavigationView {
@@ -15,39 +16,37 @@ struct HamburgerMenuView: View {
                     MenuRow(
                         icon: "house.fill",
                         title: "Home",
-                        color: .blue
+                        color: .gray
                     ) {
                         dismiss()
                     }
                     
-                    MenuRow(
-                        icon: "camera.fill",
-                        title: "Diagnose",
-                        color: .blue
-                    ) {
-                        dismiss()
+                    Button {
+                        showHireRDiscussion = true
+                    } label: {
+                        HStack(spacing: 16) {
+                            Image(systemName: "clipboard")
+                                .font(.title3)
+                                .foregroundColor(.cyan)
+                                .frame(width: 32)
+                            
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text("Hire-r")
+                                    .foregroundColor(.primary)
+                            }
+                            
+                            Spacer()
+                            
+                            Image(systemName: "chevron.right")
+                                .font(.caption)
+                                .foregroundColor(.secondary)
+                        }
                     }
                     
                     MenuRow(
-                        icon: "eye.fill",
-                        title: "AR Detector",
-                        color: .blue
-                    ) {
-                        dismiss()
-                    }
-                    
-                    MenuRow(
-                        icon: "clock.fill",
-                        title: "History",
-                        color: .cyan
-                    ) {
-                        dismiss()
-                    }
-                    
-                    MenuRow(
-                        icon: "bubble.left.and.bubble.right.fill",
-                        title: "AI Chat",
-                        color: .purple
+                        icon: "clipboard",
+                        title: "Hire-d",
+                        color: .green
                     ) {
                         dismiss()
                     }
@@ -64,16 +63,16 @@ struct HamburgerMenuView: View {
                     }
                     
                     MenuRow(
-                        icon: "network",
-                        title: "Environment",
-                        color: .blue
+                        icon: "pin",
+                        title: "Nearby Technicians",
+                        color: .red
                     ) {
                         dismiss()
                     }
                     
                     MenuRow(
-                        icon: "brain",
-                        title: "Status",
+                        icon: "stairs",
+                        title: "Hire-r Stats",
                         color: .blue
                     ) {
                         dismiss()
@@ -105,6 +104,11 @@ struct HamburgerMenuView: View {
                         dismiss()
                     }
                 }
+            }
+        }
+        .fullScreenCover(isPresented: $showHireRDiscussion) {
+            NavigationView {
+                DiscussionThreadView()
             }
         }
     }

@@ -10,9 +10,8 @@
 		517A6F452F191CF400194821 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517A6F442F191CF400194821 /* MapKit.framework */; };
 		517A6F482F191CFF00194821 /* CoreLocationUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517A6F462F191CFF00194821 /* CoreLocationUI.framework */; };
 		517A6F492F191CFF00194821 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517A6F472F191CFF00194821 /* CoreLocation.framework */; };
-		517A6F822F19536600194821 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 517A6F812F19536600194821 /* AlamofireDynamic */; };
-		517A6F842F1953E400194821 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 517A6F832F1953E400194821 /* Alamofire */; };
 		517F7A472F191722001354E0 /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 517F7A462F191722001354E0 /* SwiftKeychainWrapper */; settings = {ATTRIBUTES = (Weak, ); }; };
+		51AEFC052F1968DE00A901D9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 51AEFC042F1968DE00A901D9 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +30,19 @@
 			remoteInfo = iScrape;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		51AEFC032F19684A00A901D9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		517A6F442F191CF400194821 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -66,8 +78,7 @@
 			files = (
 				517A6F492F191CFF00194821 /* CoreLocation.framework in Frameworks */,
 				517A6F452F191CF400194821 /* MapKit.framework in Frameworks */,
-				517A6F822F19536600194821 /* AlamofireDynamic in Frameworks */,
-				517A6F842F1953E400194821 /* Alamofire in Frameworks */,
+				51AEFC052F1968DE00A901D9 /* Alamofire in Frameworks */,
 				517A6F482F191CFF00194821 /* CoreLocationUI.framework in Frameworks */,
 				517F7A472F191722001354E0 /* SwiftKeychainWrapper in Frameworks */,
 			);
@@ -131,6 +142,7 @@
 				519CF5402EF3BBEA009C2829 /* Sources */,
 				519CF5412EF3BBEA009C2829 /* Frameworks */,
 				519CF5422EF3BBEA009C2829 /* Resources */,
+				51AEFC032F19684A00A901D9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -142,8 +154,7 @@
 			name = AM_Hirer;
 			packageProductDependencies = (
 				517F7A462F191722001354E0 /* SwiftKeychainWrapper */,
-				517A6F812F19536600194821 /* AlamofireDynamic */,
-				517A6F832F1953E400194821 /* Alamofire */,
+				51AEFC042F1968DE00A901D9 /* Alamofire */,
 			);
 			productName = iScrape;
 			productReference = 519CF5442EF3BBEA009C2829 /* AM_Hirer.app */;
@@ -420,6 +431,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
@@ -431,8 +443,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 0.1.0;
+				CURRENT_PROJECT_VERSION = 0.1.2;
+				DEVELOPMENT_ASSET_PATHS = AM_Hirer/login_background_light.storyboard;
 				DEVELOPMENT_TEAM = ZH33H73W67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -454,7 +468,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 0.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "AMS.matthewmclellan.AM-Hirer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -475,8 +489,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 0.1.0;
+				CURRENT_PROJECT_VERSION = 0.1.2;
+				DEVELOPMENT_ASSET_PATHS = AM_Hirer/login_background_light.storyboard;
 				DEVELOPMENT_TEAM = ZH33H73W67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -498,7 +514,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 0.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "AMS.matthewmclellan.AM-Hirer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -658,19 +674,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		517A6F812F19536600194821 /* AlamofireDynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 517A6F802F19536600194821 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = AlamofireDynamic;
-		};
-		517A6F832F1953E400194821 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 517A6F802F19536600194821 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
 		517F7A462F191722001354E0 /* SwiftKeychainWrapper */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SwiftKeychainWrapper;
+		};
+		51AEFC042F1968DE00A901D9 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 517A6F802F19536600194821 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

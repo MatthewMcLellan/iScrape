@@ -54,10 +54,10 @@ struct ContentView: View {
                         showingMenu = true
                     } label: {
                         Image(systemName: "line.3.horizontal")
-                            .font(.system(size: 18, weight: .semibold))
+                            .font(.system(size: 22, weight: .semibold))
                             .foregroundStyle(.primary)
                             .padding(10)
-                            .background(.thinMaterial, in: Circle())
+                            .background(.ultraThinMaterial, in: Circle())
                     }
                     .accessibilityLabel("Menu")
                     .shadow(radius: 2, x: 0, y: 1)
@@ -82,10 +82,10 @@ struct ContentView: View {
                         recenterRequest = true
                     } label: {
                         Image(systemName: "location.north.line.fill")
-                            .font(.system(size: 16, weight: .semibold))
+                            .font(.system(size: 21, weight: .semibold))
                             .foregroundStyle(.primary)
                             .padding(10)
-                            .background(.thinMaterial, in: Circle())
+                            .background(.ultraThinMaterial, in: Circle())
                     }
                     .accessibilityLabel("Recenter")
                     .shadow(radius: 2, x: 0, y: 1)
@@ -140,7 +140,7 @@ struct ContentView: View {
                     .padding(.horizontal, 12)
                     .padding(.vertical, 8)
                     .frame(width: isSearchExpanded ? 280 : 140)
-                    .background(.thinMaterial, in: Capsule())
+                    .background(.ultraThinMaterial, in: Capsule())
                     .shadow(radius: 2, x: 0, y: 1)
                     .onTapGesture {
                         tapHaptic()
@@ -167,7 +167,7 @@ struct ContentView: View {
                         activeSheet = .home
                     } label: {
                         VStack(spacing: 4) {
-                            Image(systemName: "house.fill")
+                            Image(systemName: "house")
                             Text("Home")
                                 .font(.caption2)
                         }
@@ -183,8 +183,8 @@ struct ContentView: View {
                         activeSheet = .geocode
                     } label: {
                         VStack(spacing: 4) {
-                            Image(systemName: "globe")
-                            Text("Geocode")
+                            Image(systemName: "clipboard")
+                            Text("AM-AI Tasks")
                                 .font(.caption2)
                         }
                         .foregroundStyle(lastSelected == .geocode ? .blue : .primary)
@@ -199,8 +199,8 @@ struct ContentView: View {
                         activeSheet = .reverse
                     } label: {
                         VStack(spacing: 4) {
-                            Image(systemName: "globe.fill")
-                            Text("Reverse")
+                            Image(systemName: "checkmark")
+                            Text("Hire-r")
                                 .font(.caption2)
                         }
                         .foregroundStyle(lastSelected == .reverse ? .blue : .primary)
