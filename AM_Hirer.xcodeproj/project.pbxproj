@@ -444,14 +444,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = AM_Hirer/AM_Hirer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 0.1.3;
+				CURRENT_PROJECT_VERSION = 0.1.4;
 				DEVELOPMENT_ASSET_PATHS = AM_Hirer/login_background_light.storyboard;
 				DEVELOPMENT_TEAM = ZH33H73W67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "AM-Hirer-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Hire-r";
+				INFOPLIST_KEY_CFBundleDisplayName = "HIRE-R";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We provide navigation and real-time route adjustments during travel, or idle, without the need to keep the device on, preserving battery life and device health.";
@@ -468,7 +469,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.3;
+				MARKETING_VERSION = 0.1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "AMS.matthewmclellan.AM-Hirer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -490,14 +491,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = AM_Hirer/AM_Hirer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 0.1.3;
+				CURRENT_PROJECT_VERSION = 0.1.4;
 				DEVELOPMENT_ASSET_PATHS = AM_Hirer/login_background_light.storyboard;
 				DEVELOPMENT_TEAM = ZH33H73W67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "AM-Hirer-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Hire-r";
+				INFOPLIST_KEY_CFBundleDisplayName = "HIRE-R";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We provide navigation and real-time route adjustments during travel, or idle, without the need to keep the device on, preserving battery life and device health.";
@@ -514,7 +516,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.3;
+				MARKETING_VERSION = 0.1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "AMS.matthewmclellan.AM-Hirer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
