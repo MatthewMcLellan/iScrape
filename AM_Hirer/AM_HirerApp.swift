@@ -4,14 +4,20 @@
 //
 //  Created by Matthew McLellan on 12/17/25.
 //
-
+internal import Foundation
 import SwiftUI
+import CoreData
 
-@main
 struct AM_HirerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBar()
+            }
         }
-    }
+    
+    let persistenceController = PersistenceController.shared
+}
+
+#Preview {
+    TabBar()
 }

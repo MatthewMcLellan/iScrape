@@ -7,7 +7,7 @@
 
 import CoreLocation
 import SwiftUI
-import MapKit
+internal import MapKit
 import GeoToolbox
 import OSLog
 import Combine

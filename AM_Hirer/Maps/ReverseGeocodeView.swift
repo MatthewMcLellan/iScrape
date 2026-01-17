@@ -6,18 +6,16 @@
 //
 
 import SwiftUI
-import MapKit
+internal import MapKit
 
 struct ReverseGeocodeView: View {
     private let fountainCoordinates = [
-        // Mill Creek Park, Kansas City
-        CLLocation(latitude: 39.042_617, longitude: -94.587_526),
+        // PowderPigs Ski School, Snoqualmie, WA
+        CLLocation(latitude: 47.402235, longitude: -121.410742),
         
-        // Trevi Fountain, Rome
-        CLLocation(latitude: 41.900_995, longitude: 12.483_285),
+        CLLocation(latitude: 47.653737, longitude: -122.304729),
         
-        // Archibald, Sydney
-        CLLocation(latitude: -33.870_986, longitude: 151.211_786)
+        CLLocation(latitude: 47.630300, longitude: -122.391483)
     ]
     
     @State private var fountains: [MKMapItem] = []

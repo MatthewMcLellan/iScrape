@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import MapKit
+internal import MapKit
 import OSLog
 
 struct GeocodeView: View {
